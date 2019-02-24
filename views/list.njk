@@ -1,1 +1,7 @@
-<h1>Bem-vindo, {{ name }}</h1>
+<h1>Listagem de usuários</h1>
+
+<ul>
+  {% for u in users %}
+    <li>{{ u }}</li>
+  {% endfor %}
+</ul>

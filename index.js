@@ -11,8 +11,10 @@ nunjucks.configure("views", {
 
 app.set("view engine", "njk");
 
+const users = ["Cris", "Mayara", "João"];
+
 app.get("/", (req, res) => {
-  return res.render("list", { name: "Cris " });
+  return res.render("list", { users: users });
 });
 
 app.listen(3000);
