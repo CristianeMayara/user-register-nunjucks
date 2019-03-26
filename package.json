@@ -1,5 +1,5 @@
 {
-  "name": "gonode-server",
+  "name": "user-register-nunjucks",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
